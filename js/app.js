@@ -12,6 +12,6 @@ $formulario.addEventListener('submit', e => {
     }
 })
 
-$correo.addEventListener('keyup', e => {
+$correo.addEventListener('focus', e => {
     $formulario.classList.remove('formulario__activo')
 })
